@@ -9,7 +9,7 @@
     --warning: #fffa00;
     --success: #00AF81;
     --color-title: #3F3A51;
-    ;
+    --lilac: #DFE1FF;
     --primary_button-text: #F9F9F9;
     --primary_button-bg: var(--main);
     --secondary_button-text: var(--color-title);
@@ -53,18 +53,26 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-body{
-    margin: 0 345px 50px;
+body, a{
+    color: var(--color-title);
+}
+section{
+    margin: 0;
+    padding: 0 345px 50px;
+}
+.container{
+    padding: 0;
+    margin: 0;
 }
 p{
     margin: 0;
+    padding: 0;
 }
 h1, h2, h3, h4, h5{
     margin: 0;
     padding: 0;
-    color: var(--color-title);
 }
 ul{
     list-style: none;
@@ -85,11 +93,9 @@ ul{
 .navigation__list{
     display: flex;
     gap: 50px;
-    list-style: none;
 }
 .navigation__list-item-link{
     text-decoration: none;
-    color: var(--color-title);
     font-family: var(--font_regular);
     font-size: var(--title_small);
     font-weight: var(--weight_text);
@@ -103,10 +109,12 @@ ul{
 
 /*Промо*/
 .promo{
-    margin-top: 78px;
+        margin-top: 80px;
+        margin-bottom: 80px;
 }
 .promo__wrap{
     display: flex;
+    gap: 40px;
 }
 .promo__info{
 
@@ -159,3 +167,43 @@ ul{
     height: 399px;
 }
 /*Конец Промо*/
+
+/*Класс*/
+.class{
+    height: 400px;
+    padding-top: 73px;
+    margin-bottom: 500px;
+    background-color: var(--lilac);
+}
+.class__wrap{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.class__info{
+
+}
+.class__info-title{
+    font-size: var(--title_medium);
+    font-family: var(--font_bold);
+    font-weight: var(--weight_titles);
+    margin-bottom: 28px;
+}
+.class__info-description{
+
+}
+.class__info-description-first{
+    font-size: var(--text_main);
+    font-family: var(--font_bold);
+    font-weight: var(--weight_text);
+}
+.class__info-description-second{
+    margin-top: 18px;
+    font-size: var(--text_main);
+    font-family: var(--font_bold);
+    font-weight: var(--weight_text);
+}
+.class__teacher{
+    height: 241px;
+}
+/*Конец Класс*/
