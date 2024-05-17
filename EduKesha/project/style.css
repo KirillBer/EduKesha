@@ -71,18 +71,6 @@ body, a{
     margin: 0;
     padding: 0;
 }
-/*
-.container{ 
-    margin: 0;
-    padding: 0;
-}
-*/
-/*
-section{
-    margin: 0;
-    padding: 0 345px 0;
-}
-*/
 p, h1, h2, h3, h4, h5{
     margin: 0;
     padding: 0;
@@ -126,9 +114,10 @@ ul{
         margin-bottom: 80px;
 }
 .promo__wrap{
-    display: flex;
-    justify-content: center;
-    /*gap: 40px;*/
+
+}
+.promo__wrap-item-second{
+    text-align: end;
 }
 .promo__wrap .promo_image{
     background-size: contain;
@@ -202,14 +191,14 @@ ul{
     background-color: var(--lilac);
 }
 .class__wrap{
-    display: flex;
-    gap: 60px;
-    align-items: center;
-    justify-content: space-between;
+    
 }
-.class__wrap .class__image{
+.class__wrap img{
     margin-top: 7px;
     height: 241px;
+}
+.class__wrap-item-second{
+    text-align: end;
 }
 .class__info{
     max-width: 570px;
@@ -240,9 +229,7 @@ ul{
     margin-top: 80px;
 }
 .history__wrap{
-    display: flex;
-    gap: 65px;
-    align-items: center;
+    
 }
 .history__wrap .history__image{
     height: 338px;
@@ -284,8 +271,7 @@ ul{
     font-size: var(--title_medium);
 }
 .possibilities__cards{
-    display: flex;
-    gap: 30px;
+    justify-content: space-between;
 }
 .possibilities__cards div{
     text-align: center;
@@ -330,7 +316,6 @@ ul{
     font-size: var(--title_medium)
 }
 .idea__cards{
-    display: flex;
     justify-content: space-between;
     text-align: center;
 }
@@ -345,16 +330,6 @@ ul{
     font-family: var(--font_regular);
     font-size: var(--text_main)
 }
-.idea__cards-first{
-    width: 345px;
-}
-.idea__cards-second{
-    width: 345px;
-}
-.idea__cards-third{
-    width: 311px;
-    margin-right: 17px;
-}
 /*Конец Идея*/
 
 
@@ -365,16 +340,12 @@ ul{
     background-color: var(--lilac);
 }
 .reviews__wrap{
-    display: flex;
     padding-top: 80px;
     padding-bottom: 72px;
-    gap: 135px;
     color: black;
 }
 .reviews__info{
     margin-top: 24px;
-    width: 390px;
-    height: 202px;
 }
 .reviews__info h1{
     font-weight: var(--weight_titles);
@@ -384,7 +355,7 @@ ul{
 .reviews__info p{
     margin-top: 14px;
     margin-bottom: 20px;
-    width: 325px;
+    max-width: 325px;
     font-weight: var(--weight_text);
     font-family: var(--font_regular);
     font-size: var(--text_small)
