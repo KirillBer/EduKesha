@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/*Отзыв*/
+.reviews {
+  margin-top: 80px;
+  background-color: var(--lilac);
+}
+.reviews__wrap {
+  padding-top: 80px;
+  padding-bottom: 72px;
+  color: black;
+}
+.reviews__info {
+  margin-top: 24px;
+}
+.reviews__info h1 {
+  font-weight: var(--weight_titles);
+  font-family: var(--font_bold);
+  font-size: var(--title_medium);
+}
+.reviews__info p {
+  margin-top: 14px;
+  margin-bottom: 20px;
+  max-width: 325px;
+  font-weight: var(--weight_text);
+  font-family: var(--font_regular);
+  font-size: var(--text_small);
+}
+.reviews__info button {
+  background-color: var(--main);
+  border: 0px;
+  color: var(--light);
+  width: 180px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: var(--weight_text);
+  font-family: var(--font_regular);
+  font-size: var(--text_small);
+  transition: box-shadow 300ms, transform 100ms;
+}
+.reviews__info button:hover {
+  box-shadow: var(--shadow_button);
+}
+.reviews__info button:active {
+  transform: scale(0.95);
+}
+.reviews__card {
+  width: 629px;
+  height: 263px;
+  border-radius: 35px;
+  background-color: white;
+}
+.reviews__card h2 {
+  margin: 30px 50px 18px 30px;
+  line-height: 30px;
+  font-weight: var(--weight_text);
+  font-family: var(--font_bold);
+  font-size: var(--title_standard);
+}
+.reviews__card-teacher {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: 30px;
+}
+.reviews__card-teacher h3, .reviews__card-teacher p {
+  font-weight: var(--weight_text);
+  font-family: var(--font_bold);
+  font-size: var(--text_small);
+}
+.reviews__card-teacher p {
+  color: var(--gray);
+}
+
+/*Конец Отзыв*//*# sourceMappingURL=reviews.css.map */

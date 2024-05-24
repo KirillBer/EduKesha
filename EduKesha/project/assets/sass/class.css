@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/*Класс*/
+.class {
+  padding-top: 73px;
+  padding-bottom: 80px;
+  background-color: var(--lilac);
+}
+.class__wrap img {
+  margin-top: 7px;
+  height: 241px;
+}
+.class__wrap-item-second {
+  text-align: end;
+}
+.class__info {
+  max-width: 570px;
+}
+.class__info-title {
+  font-family: var(--font_bold);
+  font-weight: var(--weight_titles);
+  font-size: var(--title_medium);
+  margin-bottom: 28px;
+}
+.class__info-description {
+  font-family: var(--font_regular);
+  font-weight: var(--weight_text);
+  font-size: var(--text_main);
+}
+.class__info-description-second {
+  margin-top: 18px;
+  margin-bottom: 9px;
+}
+
+/*Конец Класс*//*# sourceMappingURL=class.css.map */

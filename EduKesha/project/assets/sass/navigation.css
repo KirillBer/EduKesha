@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*Навигация*/
+.navigation {
+  margin-top: 50px;
+}
+.navigation__wrap {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.navigation__list {
+  display: flex;
+  gap: 50px;
+}
+.navigation__list-item-link {
+  text-decoration: none;
+  font-family: var(--font_regular);
+  font-size: var(--text_main);
+  font-weight: var(--weight_text);
+}
+.navigation__list-item-link:hover {
+  text-decoration: underline;
+}
+
+/*Конец Навигация*//*# sourceMappingURL=navigation.css.map */

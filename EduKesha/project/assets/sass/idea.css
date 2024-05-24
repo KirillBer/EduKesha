@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*Идея*/
+.idea {
+  margin-top: 67px;
+}
+.idea__wrap-title {
+  margin-bottom: 54px;
+  text-align: center;
+  font-weight: var(--weight_titles);
+  font-family: var(--font_bold);
+  font-size: var(--title_medium);
+}
+.idea__cards {
+  justify-content: space-between;
+  text-align: center;
+}
+.idea__cards h6 {
+  margin: 24px 0;
+  font-weight: var(--weight_titles);
+  font-family: var(--font_bold);
+  font-size: var(--title_standard);
+}
+.idea__cards p {
+  font-weight: var(--weight_text);
+  font-family: var(--font_regular);
+  font-size: var(--text_main);
+}
+
+/*Конец Идея*//*# sourceMappingURL=idea.css.map */

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*История*/
+.history {
+  margin-top: 80px;
+}
+.history__image {
+  height: 338px;
+  box-shadow: var(--shadow_primary);
+}
+.history__info-title {
+  margin-bottom: 30px;
+  font-weight: var(--weight_titles);
+  font-family: var(--font_bold);
+  font-size: var(--title_medium);
+}
+.history__info-description {
+  font-weight: var(--weight_text);
+  font-family: var(--font_regular);
+  font-size: var(--text_main);
+}
+.history__info-description-first {
+  margin-bottom: 20px;
+}
+
+/*Конец История*//*# sourceMappingURL=history.css.map */

@@ -1,0 +1,29 @@
+/*История*/
+.history{
+    margin-top: 80px;
+
+    &__image{
+        height: 338px;
+        box-shadow: var(--shadow_primary);
+    }
+    &__info{
+        &-title{
+            margin-bottom: 30px;
+            font-weight: var(--weight_titles);
+            font-family: var(--font_bold);
+            font-size: var(--title_medium);
+        }
+
+        &-description{
+            font-weight: var(--weight_text);
+            font-family: var(--font_regular);
+            font-size: var(--text_main);
+
+            &-first{
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+/*Конец История*/

@@ -1,0 +1,81 @@
+/*Отзыв*/
+.reviews{
+    margin-top: 80px;
+    background-color: var(--lilac);
+
+    &__wrap{
+        padding-top: 80px;
+        padding-bottom: 72px;
+        color: black;
+    }
+
+    &__info{
+        margin-top: 24px;
+
+        h1{
+            font-weight: var(--weight_titles);
+            font-family: var(--font_bold);
+            font-size: var(--title_medium)
+        }
+        p{
+            margin-top: 14px;
+            margin-bottom: 20px;
+            max-width: 325px;
+            font-weight: var(--weight_text);
+            font-family: var(--font_regular);
+            font-size: var(--text_small)
+        }
+        button{
+            background-color: var(--main);
+            border: 0px;
+            color: var(--light);
+            width: 180px;
+            height: 50px;
+            border-radius: 10px;
+            font-weight: var(--weight_text);
+            font-family: var(--font_regular);
+            font-size: var(--text_small);
+            transition: box-shadow 300ms, transform 100ms;
+
+            &:hover{
+                box-shadow: var(--shadow_button);
+            }
+            &:active{
+                transform: scale(0.95);
+            }
+        }
+    }
+
+    &__card{
+        width: 629px;
+        height: 263px;
+        border-radius: 35px;
+        background-color: white;
+
+        h2{
+            margin: 30px 50px 18px 30px;
+            line-height: 30px;
+            font-weight: var(--weight_text);
+            font-family: var(--font_bold);
+            font-size: var(--title_standard)
+        }
+
+        &-teacher{
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-left: 30px;
+
+            h3, p{
+                font-weight: var(--weight_text);
+                font-family: var(--font_bold);
+                font-size: var(--text_small);
+            }
+            p{
+                color: var(--gray);
+            }
+        }
+    }
+}
+
+/*Конец Отзыв*/

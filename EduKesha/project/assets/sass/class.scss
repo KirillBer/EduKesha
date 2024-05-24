@@ -1,0 +1,39 @@
+/*Класс*/
+.class{
+    padding-top: 73px;
+    padding-bottom: 80px;
+    background-color: var(--lilac);
+
+    &__wrap{
+        img{
+            margin-top: 7px;
+            height: 241px;
+        }
+        &-item-second{
+            text-align: end;
+        }
+    }
+    
+    &__info{
+        max-width: 570px;
+
+        &-title{
+            font-family: var(--font_bold);
+            font-weight: var(--weight_titles);
+            font-size: var(--title_medium);
+            margin-bottom: 28px;
+        }
+        &-description{
+            font-family: var(--font_regular);
+            font-weight: var(--weight_text);
+            font-size: var(--text_main);
+
+            &-second{
+                margin-top: 18px;
+                margin-bottom: 9px;
+            }
+        }
+    }
+}
+
+/*Конец Класс*/

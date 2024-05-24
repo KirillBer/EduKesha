@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/*Возможности*/
+.possibilities {
+  margin-top: 80px;
+}
+.possibilities__wrap h4 {
+  text-align: center;
+  margin-bottom: 45px;
+  font-weight: var(--weight_titles);
+  font-family: var(--font_bold);
+  font-size: var(--title_medium);
+}
+.possibilities__cards {
+  justify-content: space-between;
+}
+.possibilities__cards div {
+  text-align: center;
+  border-radius: 20px;
+  width: 285px;
+  height: 320px;
+}
+.possibilities__cards img {
+  margin-top: 48px;
+}
+.possibilities__cards h5 {
+  margin-top: 26px;
+  font-weight: var(--weight_titles);
+  font-family: var(--font_bold);
+  font-size: var(--title_standard);
+}
+.possibilities__cards p {
+  margin-top: 18px;
+  font-weight: var(--weight_text);
+  font-family: var(--font_regular);
+  font-size: var(--text_main);
+}
+.possibilities__cards-first, .possibilities__cards-third {
+  background-color: var(--bg_primary);
+  box-shadow: var(--shadow_primary);
+}
+.possibilities__cards-second, .possibilities__cards-fourth {
+  background-color: var(--bg_secondary);
+  box-shadow: var(--shadow_secondary);
+}
+
+/*Конец Возможности*//*# sourceMappingURL=possibilities.css.map */
