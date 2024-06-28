@@ -12,6 +12,11 @@
   display: flex;
   gap: 50px;
 }
+@media screen and (max-width: 768px) {
+  .navigation__list {
+    gap: 20px;
+  }
+}
 .navigation__list-item-link {
   text-decoration: none;
   font-family: var(--font_regular);

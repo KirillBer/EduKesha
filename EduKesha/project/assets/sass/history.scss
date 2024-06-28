@@ -1,10 +1,20 @@
 /*История*/
 .history{
     margin-top: 80px;
+    @media screen and (max-width: 1200px){
+        text-align: center;
+        row-gap: 50px;
+    }
 
     &__image{
         height: 338px;
         box-shadow: var(--shadow_primary);
+        @media screen and (max-width: 1200px){
+            margin-top: 20px;
+        }
+        @media screen and (max-width: 768px){
+            width: 100%;
+        }
     }
     &__info{
         &-title{

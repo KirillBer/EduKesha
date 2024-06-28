@@ -13,11 +13,31 @@
 .possibilities__cards {
   justify-content: space-between;
 }
+@media screen and (max-width: 1200px) {
+  .possibilities__cards {
+    justify-content: center;
+    row-gap: 50px;
+  }
+}
 .possibilities__cards div {
   text-align: center;
   border-radius: 20px;
-  width: 285px;
   height: 320px;
+}
+@media screen and (max-width: 992px) {
+  .possibilities__cards div {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .possibilities__cards div {
+    width: 250px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .possibilities__cards div {
+    width: 285px;
+  }
 }
 .possibilities__cards img {
   margin-top: 48px;

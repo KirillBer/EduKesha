@@ -3,9 +3,25 @@
 .history {
   margin-top: 80px;
 }
+@media screen and (max-width: 1200px) {
+  .history {
+    text-align: center;
+    row-gap: 50px;
+  }
+}
 .history__image {
   height: 338px;
   box-shadow: var(--shadow_primary);
+}
+@media screen and (max-width: 1200px) {
+  .history__image {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .history__image {
+    width: 100%;
+  }
 }
 .history__info-title {
   margin-bottom: 30px;

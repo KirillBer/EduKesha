@@ -5,6 +5,9 @@
     margin-bottom: 80px;
 
     &__info{
+        @media screen and (max-width: 1200px){
+            text-align: center;
+        }
         &-title{
             font-weight: var(--weight_titles);
             font-size: var(--title_super);
@@ -20,6 +23,9 @@
             margin-top: 16px;
             max-width: 300px;
             margin-bottom: 20px;
+            @media screen and (max-width: 1200px){
+                max-width: 100%;
+            }
         }
 
         &-buttons{
@@ -28,6 +34,9 @@
             font-weight: var(--weight_text);
             font-size: var(--text_small);
             font-family: var(--font_regular);
+            @media screen and (max-width: 1200px){
+                justify-content: center;
+            }
 
             &-start{
                 background-color: var(--main);
@@ -74,6 +83,15 @@
     &__wrap{
         &-item-second{
             text-align: end;
+            @media screen and (max-width: 1200px){
+                text-align: center;
+                margin-top: 20px;
+            }
+            img{
+                @media screen and (max-width: 768px){
+                    width: 100%;
+                }
+            }
         }
     }
 }

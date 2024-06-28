@@ -12,6 +12,11 @@
 .reviews__info {
   margin-top: 24px;
 }
+@media screen and (max-width: 1200px) {
+  .reviews__info {
+    text-align: center;
+  }
+}
 .reviews__info h1 {
   font-weight: var(--weight_titles);
   font-family: var(--font_bold);
@@ -20,10 +25,14 @@
 .reviews__info p {
   margin-top: 14px;
   margin-bottom: 20px;
-  max-width: 325px;
   font-weight: var(--weight_text);
   font-family: var(--font_regular);
   font-size: var(--text_small);
+}
+@media screen and (min-width: 1200px) {
+  .reviews__info p {
+    max-width: 325px;
+  }
 }
 .reviews__info button {
   background-color: var(--main);
@@ -48,6 +57,16 @@
   height: 263px;
   border-radius: 35px;
   background-color: white;
+}
+@media screen and (max-width: 1200px) {
+  .reviews__card {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .reviews__card {
+    width: 100%;
+  }
 }
 .reviews__card h2 {
   margin: 30px 50px 18px 30px;

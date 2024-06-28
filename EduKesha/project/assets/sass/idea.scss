@@ -1,7 +1,6 @@
 /*Идея*/
 .idea{
     margin-top: 67px;
-
     &__wrap-title{
         margin-bottom: 54px;
         text-align: center;
@@ -13,6 +12,9 @@
     &__cards{
         justify-content: space-between;
         text-align: center;
+        @media screen and (max-width: 1200px){
+            row-gap: 50px;
+        }
 
         h6{
             margin: 24px 0;
