@@ -15,6 +15,17 @@
   font-family: var(--font_bold);
   margin-top: 50px;
 }
+@media screen and (max-width: 992px) {
+  .promo__info-title {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .promo__info-title {
+    font-size: var(--title_super-mobile);
+    text-align: left;
+  }
+}
 .promo__info-description {
   font-family: var(--font_regular);
   font-weight: var(--weight_text);
@@ -29,12 +40,23 @@
     max-width: 100%;
   }
 }
+@media screen and (max-width: 576px) {
+  .promo__info-description {
+    font-size: var(--text_main-mobile);
+    text-align: left;
+  }
+}
 .promo__info-buttons {
   display: flex;
   gap: 20px;
   font-weight: var(--weight_text);
   font-size: var(--text_small);
   font-family: var(--font_regular);
+}
+@media screen and (max-width: 576px) {
+  .promo__info-buttons {
+    display: block;
+  }
 }
 @media screen and (max-width: 1200px) {
   .promo__info-buttons {
@@ -49,6 +71,12 @@
   height: 50px;
   border-radius: 10px;
   transition: box-shadow 300ms, transform 100ms;
+}
+@media screen and (max-width: 576px) {
+  .promo__info-buttons-start {
+    width: 100%;
+    margin-bottom: 8px;
+  }
 }
 .promo__info-buttons-start:hover {
   box-shadow: var(--shadow_button);
@@ -69,6 +97,11 @@
   gap: 10px;
   border-radius: 10px;
   transition: box-shadow 300ms, transform 100ms;
+}
+@media screen and (max-width: 576px) {
+  .promo__info-buttons-demo {
+    width: 100%;
+  }
 }
 .promo__info-buttons-demo:hover {
   box-shadow: var(--shadow_button);

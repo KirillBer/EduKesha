@@ -10,6 +10,11 @@
   font-family: var(--font_bold);
   font-size: var(--title_medium);
 }
+@media screen and (max-width: 576px) {
+  .idea__wrap-title {
+    font-size: var(--title_super-mobile);
+  }
+}
 .idea__cards {
   justify-content: space-between;
   text-align: center;
@@ -29,6 +34,11 @@
   font-weight: var(--weight_text);
   font-family: var(--font_regular);
   font-size: var(--text_main);
+}
+@media screen and (max-width: 576px) {
+  .idea__cards p {
+    font-size: var(--text_main-mobile);
+  }
 }
 
 /*Конец Идея*//*# sourceMappingURL=idea.css.map */

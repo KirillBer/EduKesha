@@ -3,12 +3,32 @@
 .possibilities {
   margin-top: 80px;
 }
+@media screen and (min-width: 992px) {
+  .possibilities .the-swiper {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .possibilities .not-the-swiper {
+    display: none;
+  }
+}
 .possibilities__wrap h4 {
   text-align: center;
   margin-bottom: 45px;
   font-weight: var(--weight_titles);
   font-family: var(--font_bold);
   font-size: var(--title_medium);
+}
+@media screen and (max-width: 768px) {
+  .possibilities__wrap h4 {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .possibilities__wrap h4 {
+    font-size: var(--title_super-mobile);
+  }
 }
 .possibilities__cards {
   justify-content: space-between;
@@ -19,14 +39,17 @@
     row-gap: 50px;
   }
 }
+.possibilities__cards-card {
+  margin-bottom: 40px;
+  height: 320px;
+}
 .possibilities__cards div {
   text-align: center;
   border-radius: 20px;
-  height: 320px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
   .possibilities__cards div {
-    width: 70%;
+    height: 320px;
   }
 }
 @media screen and (min-width: 1200px) {
